@@ -1,0 +1,18 @@
+DungeonMons1:
+	db $0A
+	db 5,ZUBAT
+	db 5,DROWZEE
+	db 5,MAGNETMITE
+	db 5,DODUO
+	db 5,VENONAT
+	IF DEF(_RED)
+		db 5,ERKANS
+	ENDC
+	IF DEF(_BLUE)
+		db 5,SANDSHREW
+	ENDC
+	db 5,ABRA
+	db 5,PARAS	
+	db 5,PEKACHU
+	db 5,CLEFAIRY
+	db $00

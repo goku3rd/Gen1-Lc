@@ -1,0 +1,13 @@
+DungeonMons2:
+	db $0F
+	db 51,DODUO
+	db 51,VENONANT
+	db 51,ABRA
+	db 52,RHYHORN
+	db 52,CUBONE
+	db 52,VOLTORB
+	db 56,CLEFAIRY
+	db 54,JIGGLYTUFF
+	db 55,KABUTO
+	db 60,KABUTO
+	db $00

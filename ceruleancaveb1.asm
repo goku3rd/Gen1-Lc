@@ -1,0 +1,18 @@
+DungeonMonsB1:
+	db $19
+	db 55,RHYHORN
+	db 55,CUBONE
+	db 55,VOLTORB
+	db 64,CLEFAIRY
+	db 64,PARAS
+	db 64,PEKACHU
+	IF DEF(_RED)
+		db 57,ERKANS
+	ENDC
+	IF DEF(_BLUE)
+		db 57,SANDSHREW
+	ENDC
+	db 65,KABUTO
+	db 63,KABUTO
+	db 67,KABUTO
+	db $00

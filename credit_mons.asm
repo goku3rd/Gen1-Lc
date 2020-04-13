@@ -1,0 +1,16 @@
+CreditsMons:
+	db BULBASAUR
+	db ERKANS
+	db RHYHORN
+	db SPEAROW
+	db ABRA
+	db GEODUDE
+	db MANKEY
+	db BELLSPROUT
+	db STARYU
+	db MAGIKARP
+	db KABUTO
+	db OMANYTE
+	db ODDISH
+	db NIDORAN_M
+	db PARAS

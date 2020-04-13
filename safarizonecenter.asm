@@ -1,0 +1,27 @@
+ZoneMonsCenter:
+	db $1E
+	IF DEF(_RED)
+		db 22,NIDORAN_M
+		db 25,RHYHORN
+		db 22,VENONAT
+		db 24,EXEGGCUTE
+		db 31,NIDORAN_M
+		db 25,EXEGGCUTE
+		db 31,NIDORAN_F
+		db 30,PARAS
+		db 23,PARAS
+		db 23,CLEFAIRY
+	ENDC
+	IF DEF(_BLUE)
+		db 22,NIDORAN_F
+		db 25,RHYHORN
+		db 22,VENONAT
+		db 24,EXEGGCUTE
+		db 31,NIDORAN_F
+		db 25,EXEGGCUTE
+		db 31,NIDORAN_M
+		db 30,PARAS
+		db 23,PARAS
+		db 23,CLEFAIRY
+	ENDC
+	db $00

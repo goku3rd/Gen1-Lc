@@ -1,0 +1,19 @@
+PrizeMonLevelDictionary:
+IF DEF(_RED)
+	db SLOWPOKE,5
+	db CLEFAIRY,5
+	db PEKACHU,5
+
+	db DRATINI,5
+	db VULPIX,5
+	db SEEL,5
+ENDC
+IF DEF(_BLUE)
+	db SLOWPOKE,5
+	db CLEFAIRY,5
+	db PEKACHU,5
+
+	db DRATINI,5
+	db VULPIX,5
+	db SEEL,5
+ENDC

@@ -1,0 +1,13 @@
+Route18Mons:
+	db $19
+	db 20,SPEAROW
+	db 22,SPEAROW
+	db 25,RATTATA
+	db 24,DODUO
+	db 25,SPEAROW
+	db 26,DODUO
+	db 28,DODUO
+	db 29,RATTATA
+	db 27,SPEAROW
+	db 29,SPEAROW
+	db $00

@@ -1,0 +1,27 @@
+MansionMons3:
+	db $0A
+	IF DEF(_RED)
+		db 31,SMOGON
+		db 33,GROWLITHE
+		db 35,SMOGON
+		db 32,PONYTA
+		db 34,PONYTA
+		db 40,SMOGON
+		db 34,GRIMER
+		db 38,SMOGON
+		db 36,PONYTA
+		db 42,GRIMER
+	ENDC
+	IF DEF(_BLUE)
+		db 31,GRIMER
+		db 33,VULPIX
+		db 35,GRIMER
+		db 32,PONYTA
+		db 34,VULPIX
+		db 40,GRIMER
+		db 34,SMOGON
+		db 38,GRIMER
+		db 36,PONYTA
+		db 42,SMOGON
+	ENDC
+	db $00
